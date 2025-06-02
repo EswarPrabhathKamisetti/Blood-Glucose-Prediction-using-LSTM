@@ -4,6 +4,10 @@ This project implements an end-to-end deep learning pipeline to forecast future 
 
 ---
 
+Link to the Dataset used: https://archive.ics.uci.edu/dataset/34/diabetes
+
+---
+
 ## 📅 Features
 
 * LSTM-based time series forecasting
