@@ -8,7 +8,7 @@ Link to the Dataset used: https://archive.ics.uci.edu/dataset/34/diabetes
 
 ---
 
-## 📅 Features
+## Features
 
 * LSTM-based time series forecasting
 * Univariate model using glucose history
@@ -19,7 +19,7 @@ Link to the Dataset used: https://archive.ics.uci.edu/dataset/34/diabetes
 
 ---
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 glucose-prediction-lstm/
@@ -28,10 +28,6 @@ glucose-prediction-lstm/
 ├── glucose_predictor.py        # CLI tool for running predictions
 ├── univariate_input.csv        # Sample input for univariate model
 ├── multivariate_input.csv      # Sample input for multivariate model
-├── univariate_lstm_model.h5    # Trained univariate LSTM model
-├── multivariate_lstm_model.h5  # Trained multivariate LSTM model
-├── univariate_scaler.pkl       # Scaler for univariate input
-├── multivariate_scaler.pkl     # Scaler for multivariate input
 ├── requirements.txt            # Python package dependencies
 ├── README.md                   # Project documentation
 ```
@@ -91,7 +87,7 @@ Predicted glucose for next hour: 145.67 mg/dL
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 * Streamlit interface for user-friendly input
 * Real-time ingestion of live glucose sensor data
@@ -99,18 +95,11 @@ Predicted glucose for next hour: 145.67 mg/dL
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## ✍️ Author
+## Author
 
 Eswar Kamisetti
 Graduate Student, Health Informatics
-Indiana University
+Indiana University, Indianapolis
 
 ---
 
-> For any questions or collaboration, please open an issue or contact via GitHub.
